@@ -1,0 +1,2 @@
+"""just print"""
+print("Output")
