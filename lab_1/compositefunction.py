@@ -2,12 +2,12 @@
 
 
 def fx(x):
-    """fx"""
+    """int"""
     return x * 2
 
 
 def gx(x):
-    """gx"""
+    """int"""
     return (x / 2) + 1
 
 N = int(input())

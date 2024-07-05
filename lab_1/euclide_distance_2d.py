@@ -5,7 +5,7 @@ import math
 
 
 def euclid():
-    """cal"""
+    """void"""
     q1 = float(input())
     q2 = float(input())
     p1 = float(input())

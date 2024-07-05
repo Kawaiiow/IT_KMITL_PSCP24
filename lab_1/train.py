@@ -1,7 +1,7 @@
 """train"""
 
 def main():
-    """pun pun"""
+    """void"""
     strs1 = input()
     strs2 = input()
     n = int(input())

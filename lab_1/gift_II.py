@@ -1,13 +1,13 @@
 """odd add odd add"""
 
 def diff(n):
-    """lorem ipsum"""
+    """void"""
     if not n % 2:
         print(n)
 
 
 def main():
-    """crun"""
+    """void"""
     mem = [None] * 8
     for i in range(8):
         mem[i] = int(input())

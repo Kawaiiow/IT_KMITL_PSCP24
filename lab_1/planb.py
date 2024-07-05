@@ -1,12 +1,11 @@
 """psit when pstand comin"""
 
 def grade():
-    """C++"""
+    """void"""
     m = float(input())
-    if m < 0 or m > 100:
-        return
-    if m >= 60:
+    if m >= 450:
         print("Pass")
     else:
         print("Fail")
+    print("Process is terminated")
 grade()

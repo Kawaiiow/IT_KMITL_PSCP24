@@ -2,7 +2,7 @@
 
 
 def sqr():
-    """print"""
+    """void"""
     h = int(input())
     w = int(input())
 

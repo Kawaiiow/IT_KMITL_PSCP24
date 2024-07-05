@@ -1,7 +1,7 @@
 """odd add odd add"""
 
 def diff():
-    """lorem ipsum"""
+    """void"""
     n = int(input())
 
     if n % 2 == 1:
