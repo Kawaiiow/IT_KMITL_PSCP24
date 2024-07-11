@@ -1,16 +1,29 @@
 """odd add odd add"""
 
-def diff(n):
-    """void"""
+
+def check(n):
+    """check"""
     if not n % 2:
         print(n)
 
 
+
 def main():
-    """void"""
-    mem = [None] * 8
-    for i in range(8):
-        mem[i] = int(input())
-    for j in range(8):
-        diff(mem[j])
+    """HARD"""
+    n = int(input())
+    check(n)
+    n = int(input())
+    check(n)
+    n = int(input())
+    check(n)
+    n = int(input())
+    check(n)
+    n = int(input())
+    check(n)
+    n = int(input())
+    check(n)
+    n = int(input())
+    check(n)
+    n = int(input())
+    check(n)
 main()
