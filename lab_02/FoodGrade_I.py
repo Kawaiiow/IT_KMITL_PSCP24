@@ -5,6 +5,8 @@ def f():
     if 50<=t<=70:
         return 1
     return 0
+
+
 def main():
     '''FoodGrade I'''
     n = 0
