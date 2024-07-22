@@ -8,13 +8,9 @@ def main():
     i = int(input())
     j = int(input())
     n = int(input())
+
     bundle = 0
     left = 0
-
-    if i <= n <= i + j:
-        print(p * i, i + j)
-        return
-
     bundle = n // (i + j)
     left = n - (bundle * (i + j))
     if left >= i:
