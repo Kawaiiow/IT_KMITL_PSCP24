@@ -13,14 +13,14 @@ def main():
     if current >= trig:
         current -= current * (percent / 100)
     if sums >= trig:
-        discount = sums * (percent/100)
+        discount = sums * (percent / 100)
         after = sums - discount
         if after == current:
             print("Yes")
         elif current > after:
-            print(f"Yes {abs(current - (sums - discount)):.3f}")
+            print(f"Yes {abs(current - after):.3f}")
         elif current < after:
-            print(f"No {abs(current - (sums - discount)):.3f}")
+            print(f"No {abs(current - after):.3f}")
     else:
         print("Yes")
 main()
